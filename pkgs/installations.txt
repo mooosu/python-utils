@@ -1,0 +1,7 @@
+pycares
+wget https://pypi.python.org/packages/source/p/pycares/pycares-0.5.0.tar.g
+
+pycurl
+wget https://pypi.python.org/packages/source/p/pycurl/pycurl-7.19.3.tar.gz
+sudo apt-get install libcurl4-openssl-dev
+python setup.py --with-ssl build
